@@ -64,7 +64,7 @@ macro(add_optional_deps dep_var)
   endforeach()
 endmacro()
 
-option(BUILD_CANDOCK "Build CANDOCK" OFF)
+option(BUILD_CANDOCK "Build CANDOCK" ON)
 
 # Add the third party dependencies first
 add_subdirectory(thirdparty)
