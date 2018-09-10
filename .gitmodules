@@ -1,7 +1,7 @@
 [submodule "statchemlib"]
 	path = statchemlib
-	url = git@github.rcac.purdue.edu:chopralab/statchemlib.git
+	url = git@gitlab.com:candiy/statchemlib.git
 	branch = master
 [submodule "candock"]
 	path = candock
-	url = git@github.rcac.purdue.edu:chopralab/candock.git
+	url = git@gitlab.com:candiy/candock.git
