@@ -5,3 +5,7 @@
 [submodule "candock"]
 	path = candock
 	url = git@gitlab.com:candiy/candock.git
+[submodule "lemon"]
+	path = lemon
+	url = git@gitlab.com:candiy/lemon.git
+	branch = master
