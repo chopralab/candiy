@@ -9,3 +9,6 @@
 	path = lemon
 	url = git@gitlab.com:candiy/lemon.git
 	branch = master
+[submodule "spear"]
+	path = spear
+	url = git@gitlab.com:candiy/spear.git
