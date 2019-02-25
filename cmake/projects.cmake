@@ -12,3 +12,7 @@ set(gsl_version "2.5.0")
 set(gsl_url "https://github.com/ampl/gsl/archive/v${gsl_version}.tar.gz")
 set(gsl_md5 "78419573df6db3186c651ac9ca3d5d38")
 
+# Chemfiles
+list(APPEND projects chemfiles)
+set(chfl_git_url "https://github.com/frodofine/chemfiles.git")
+set(chfl_git_branch "read_from_memory_2")

@@ -25,4 +25,3 @@ ExternalProject_Add(openmm
     -DOPENMM_BUILD_PME_PLUGIN:Bool=off
     -DBUILD_TESTING:BOOL=OFF
 )
-

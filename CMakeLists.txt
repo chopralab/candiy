@@ -82,5 +82,7 @@ if(BUILD_CANDOCK)
   include(External_candock)
 endif()
 
+include(External_lemon)
+
 #Finally, install the prefix
 install(DIRECTORY ${CANDIY_INSTALL_PREFIX}/ DESTINATION ${CMAKE_INSTALL_PREFIX} USE_SOURCE_PERMISSIONS)

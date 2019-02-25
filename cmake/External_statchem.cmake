@@ -10,7 +10,7 @@ ExternalProject_Add(statchemlib
   DEPENDS
     gsl
     openmm
-  )
+)
 
 if(FORCE_STEP)
   ExternalProject_Add_Step(statchemlib forcebuild
@@ -18,4 +18,3 @@ if(FORCE_STEP)
     ${FORCE_STEP_ARGS}
     ALWAYS 1)
 endif()
-
