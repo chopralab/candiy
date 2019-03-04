@@ -12,3 +12,6 @@
 [submodule "spear"]
 	path = spear
 	url = git@gitlab.com:candiy/spear.git
+[submodule "starmix"]
+	path = starmix
+	url = git@gitlab.com:candiy/starmix.git
