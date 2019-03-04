@@ -1,8 +1,6 @@
 set(_source "${CMAKE_CURRENT_SOURCE_DIR}/spear")
 set(_build "${CMAKE_CURRENT_BINARY_DIR}/spear")
 
-message(STATUS ${CANDIY_THIRDPARTYLIBS_ARGS})
-
 ExternalProject_Add(spear
   SOURCE_DIR ${_source}
   BINARY_DIR ${_build}

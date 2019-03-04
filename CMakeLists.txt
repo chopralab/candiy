@@ -74,17 +74,15 @@ list(APPEND CANDIY_DEFAULT_ARGS
   "-DBUILD_DOCUMENTATION:BOOL=${BUILD_DOCUMENTATION}"
   "-DENABLE_TESTING:BOOL=${ENABLE_TESTING}")
 
-message(STATUS ${CANDIY_THIRDPARTYLIBS_ARGS})
-
 # It's finally time to add the CANDIY projects
-include(External_statchem)
+include(Internal_statchem)
 if(BUILD_CANDOCK)
-  include(External_candock)
+  include(Internal_candock)
 endif()
 
-include(External_lemon)
-include(External_spear)
-include(External_starmix)
+include(Internal_lemon)
+include(Internal_spear)
+include(Internal_starmix)
 
 #Finally, install the prefix
 install(DIRECTORY ${CANDIY_INSTALL_PREFIX}/ DESTINATION ${CMAKE_INSTALL_PREFIX} USE_SOURCE_PERMISSIONS)

@@ -1,8 +1,6 @@
 set(_source "${CMAKE_CURRENT_SOURCE_DIR}/starmix")
 set(_build "${CMAKE_CURRENT_BINARY_DIR}/starmix")
 
-message(STATUS ${CANDIY_THIRDPARTYLIBS_ARGS})
-
 ExternalProject_Add(starmix
   SOURCE_DIR ${_source}
   BINARY_DIR ${_build}
@@ -14,6 +12,7 @@ ExternalProject_Add(starmix
   DEPENDS
     chemfiles
     lemon
+    spear
 )
 
 if(FORCE_STEP)
