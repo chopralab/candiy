@@ -16,3 +16,8 @@ set(gsl_md5 "78419573df6db3186c651ac9ca3d5d38")
 list(APPEND projects chemfiles)
 set(chfl_git_url "https://github.com/frodofine/chemfiles.git")
 set(chfl_git_branch "read_from_memory_2")
+
+# PugiXML
+list(APPEND projects chemfiles)
+set(pugi_url "https://github.com/zeux/pugixml/releases/download/v1.9/pugixml-1.9.tar.gz")
+set(pugi_md5 "7286ee2ed11376b6b780ced19fae0b64")

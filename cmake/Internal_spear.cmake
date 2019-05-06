@@ -15,6 +15,7 @@ ExternalProject_Add(spear
   DEPENDS
     chemfiles
     openmm
+    pugixml
 )
 
 if(FORCE_STEP)
