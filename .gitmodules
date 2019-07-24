@@ -1,17 +1,17 @@
 [submodule "statchemlib"]
 	path = statchemlib
-	url = git@gitlab.com:candiy/statchemlib.git
+	url = git@github.com:chopralab/statchemlib.git
 	branch = master
 [submodule "candock"]
 	path = candock
-	url = git@gitlab.com:candiy/candock.git
+	url = git@github.com:chopralab/candock.git
 [submodule "lemon"]
 	path = lemon
-	url = git@gitlab.com:candiy/lemon.git
+	url = git@github.com:chopralab/lemon.git
 	branch = master
 [submodule "spear"]
 	path = spear
-	url = git@gitlab.com:candiy/spear.git
+	url = git@github.com:chopralab/spear.git
 [submodule "starmix"]
 	path = starmix
-	url = git@gitlab.com:candiy/starmix.git
+	url = git@github.com:chopralab/starmix.git
